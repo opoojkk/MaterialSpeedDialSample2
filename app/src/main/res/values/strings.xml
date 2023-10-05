@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MaterialSpeedDialSample</string>
+    <string name="file_list_action_create_directory">Folder</string>
+    <string name="file_list_action_create_file">file</string>
+</resources>
