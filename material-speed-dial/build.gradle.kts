@@ -1,6 +1,19 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    `maven-publish`
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "io.github.opoojkk"
+            artifactId = "material-speed-dial"
+            version = "1.0.0"
+
+            artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
+        }
+    }
 }
 
 android {
