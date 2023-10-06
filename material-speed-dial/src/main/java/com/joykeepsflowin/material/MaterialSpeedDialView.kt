@@ -3,7 +3,7 @@
  * All Rights Reserved.
  */
 
-package com.joykeepsflowin.materialspeeddialsample.speedDial
+package com.joykeepsflowin.material
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -27,10 +27,10 @@ import androidx.core.view.setMargins
 import androidx.core.view.updateLayoutParams
 import androidx.core.widget.TextViewCompat
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
-import com.joykeepsflowin.materialspeeddialsample.speedDial.compat.createCompat
+import com.joykeepsflowin.material.compat.createCompat
+import com.joykeepsflowin.material.extensions.getParcelableSafe
 import com.joykeepsflowin.materialspeeddialsample.speedDial.extensions.dpToDimensionPixelSize
 import com.joykeepsflowin.materialspeeddialsample.speedDial.extensions.getColorByAttr
-import com.joykeepsflowin.materialspeeddialsample.speedDial.extensions.getParcelableSafe
 import com.joykeepsflowin.materialspeeddialsample.speedDial.extensions.getResourceIdByAttr
 import com.joykeepsflowin.materialspeeddialsample.speedDial.extensions.isMaterial3Theme
 import com.joykeepsflowin.materialspeeddialsample.speedDial.extensions.makeupWithAlpha
@@ -195,7 +195,7 @@ class MaterialSpeedDialView : SpeedDialView {
 
     override fun onSaveInstanceState(): Parcelable {
         val superState = (super.onSaveInstanceState() as Bundle)
-            .getParcelableSafe<Parcelable>("superState")
+            .getParcelableSafe<Parcelable>(context, "superState")
         return State(superState, isOpen)
     }
 

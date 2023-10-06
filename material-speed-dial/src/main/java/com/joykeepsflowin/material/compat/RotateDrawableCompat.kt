@@ -3,11 +3,11 @@
  * All Rights Reserved.
  */
 
-package com.joykeepsflowin.materialspeeddialsample.speedDial.compat
+package com.joykeepsflowin.material.compat
 
 import android.graphics.drawable.RotateDrawable
 import android.os.Build
-import com.joykeepsflowin.materialspeeddialsample.speedDial.reflection.lazyReflectedField
+import com.joykeepsflowin.material.reflection.lazyReflectedField
 import kotlin.reflect.KClass
 
 fun KClass<RotateDrawable>.createCompat(): RotateDrawable =

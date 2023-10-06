@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "MaterialSpeedDialSample"
 include(":app")
- 
+include(":material-speed-dial")

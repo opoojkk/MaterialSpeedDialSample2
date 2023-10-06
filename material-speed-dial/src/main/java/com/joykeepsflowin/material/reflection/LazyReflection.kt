@@ -1,4 +1,4 @@
-package com.joykeepsflowin.materialspeeddialsample.speedDial.reflection
+package com.joykeepsflowin.material.reflection
 
 import java.lang.reflect.Field
 

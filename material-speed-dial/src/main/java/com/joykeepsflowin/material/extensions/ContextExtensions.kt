@@ -15,8 +15,8 @@ import androidx.annotation.ColorInt
 import androidx.annotation.Dimension
 import androidx.annotation.IntegerRes
 import androidx.core.content.res.ResourcesCompat
-import com.joykeepsflowin.materialspeeddialsample.speedDial.compat.obtainStyledAttributesCompat
-import com.joykeepsflowin.materialspeeddialsample.speedDial.compat.use
+import com.joykeepsflowin.material.compat.obtainStyledAttributesCompat
+import com.joykeepsflowin.material.compat.use
 
 fun Context.getInteger(@IntegerRes id: Int) = resources.getInteger(id)
 

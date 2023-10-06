@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <com.joykeepsflowin.materialspeeddialsample.speedDial.MaterialSpeedDialView
+    <com.joykeepsflowin.material.MaterialSpeedDialView
         android:id="@+id/speed_dial_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
