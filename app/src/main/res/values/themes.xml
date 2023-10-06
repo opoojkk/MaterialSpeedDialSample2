@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MaterialSpeedDialSample" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.material_speed_dial" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.MaterialSpeedDialSample" parent="Base.Theme.MaterialSpeedDialSample" />
+    <style name="Theme.material_speed_dial" parent="Base.Theme.material_speed_dial" />
 </resources>

@@ -15,11 +15,6 @@ I would like to express my gratitude to the following projects and their contrib
 
 ## Usage
 
-
-Certainly! Here's the updated "Usage" section:
-
-## Usage
-
 To integrate the Material Speed Dial component into your project, follow these steps:
 
 1. **Import FloatingActionButtonSpeedDial**

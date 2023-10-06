@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MaterialSpeedDialSample"
+rootProject.name = "material_speed_dial"
 include(":app")
 include(":material-speed-dial")
