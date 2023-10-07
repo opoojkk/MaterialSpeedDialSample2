@@ -1,4 +1,4 @@
-package com.joykeepsflowin.materialspeeddialsample.speedDial.extensions
+package com.joykeepsflowin.material.extensions
 
 import android.graphics.Color
 import androidx.annotation.FloatRange

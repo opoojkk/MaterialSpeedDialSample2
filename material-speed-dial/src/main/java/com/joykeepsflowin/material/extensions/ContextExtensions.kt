@@ -3,7 +3,7 @@
  * All Rights Reserved.
  */
 
-package com.joykeepsflowin.materialspeeddialsample.speedDial.extensions
+package com.joykeepsflowin.material.extensions
 
 import android.annotation.SuppressLint
 import android.content.Context
